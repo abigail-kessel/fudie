@@ -1,0 +1,429 @@
+<!-- Bakeries -->
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+
+
+<!--Bakeries-->
+
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+
+<!-- Caribbean -->
+
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+
+  <!-- Chinese -->
+
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <!-- coffee shops -->
+
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+<!-- Desserts -->
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
+
+    <!-- Indian -->
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+
+    <!-- Italian -->
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <!-- Korean -->
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <!-- Mediterranean -->
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+
+    <!-- Mexican -->
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <!-- Vietnamese -->
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
