@@ -11,88 +11,493 @@
     </header>
     <ul id="nav">
     <li><a href="default.asp">Home</a></li>
-    <li><a href="news.asp">News</a></li>
-    <li><a href="contact.asp">Contact</a></li>
-    <li><a href="about.asp">About</a></li>
+    <li><a href="news.asp" onclick="filterSelection('DC')">DC</a></li>
+    <li><a href="contact.asp" onclick="filterSelection('Maryland')">Maryland</a></li>
+    <li><a href="about.asp" onclick="filterSelection('Virginia')">Virginia</a></li>
     </ul>
 
-<div id="btnContainer">
+
+<h1 align="center"> Pick Your Cuisine</h1>
+<div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('American')">American</button>
-  <button class="btn" onclick="filterSelection('Bakeries')">Bakeries</button>
-  <button class="btn" onclick="filterSelection('Caribbean')">Caribbean</button>
-  <button class="btn" onclick="filterSelection('Chinese')">Chinese</button>
-  <button class="btn" onclick="filterSelection('Coffee')">Coffee Shops</button>
-  <button class="btn" onclick="filterSelection('Indian')">Indian</button>
-  <button class="btn" onclick="filterSelection('Italian')">Italian</button>
-  <button class="btn" onclick="filterSelection('Korean')">Korean</button>
-  <button class="btn" onclick="filterSelection('Mediterranean')">Mediterranean</button>
-  <button class="btn" onclick="filterSelection('Mexican')">Mexican</button>
-  <button class="btn" onclick="filterSelection('Vietnamese')">Vietnamese</button>
-  <button class="btn" onClick="filterSelection('Pakistani')">Pakistani</button>
+  <button class="btn" onclick="filterSelection('American')"> American</button>
+  <button class="btn" onclick="filterSelection('Bakeries')"> Bakeries</button>
+  <button class="btn" onclick="filterSelection('Caribbean')"> Caribbean</button>
+  <button class="btn" onclick="filterSelection('Chinese')"> Chinese</button>
+  <button class="btn" onclick="filterSelection('Coffee')"> Coffee Shops</button>
+  <button class="btn" onclick="filterSelection('Desserts')">Desserts</button>
+  <button class="btn" onclick="filterSelection('Indian')"> Indian</button>
+  <button class="btn" onclick="filterSelection('Italian')"> Italian</button>
+  <button class="btn" onclick="filterSelection('Korean')"> Korean</button>
+  <button class="btn" onclick="filterSelection('Mediterranean')"> Mediterranean</button>
+  <button class="btn" onclick="filterSelection('Mexican')"> Mexican</button>
+  <button class="btn" onclick="filterSelection('Vietnamese')"> Vietnamese</button>
 </div>
-<pre>
+
+<h1 align="center">Pick Your Price</h1>
+<center>
+<button class="btn active" onclick="filterSelection('all$')"> Show all</button>
+<button class="btn" onclick="filterSelection('$')"> $</button>
+<button class="btn" onclick="filterSelection('$$')"> $$</button>
+<button class="btn" onclick="filterSelection('$$$')"> $$$</button>
+</center>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">  <!-- dont touch this -->
 
 
-  This is a filler
+<!-- Bakeries -->
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
 
 
+</div>
+<!--Bakeries-->
 
 
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+</div>
+<!-- Caribbean -->
 
 
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>restaurant name</strong></p>
+      <p>restaurant location</p>
+      <p>menu hyperlink</p>
+    </div>
+  </div>
+
+</div>
+  <!-- Chinese -->
 
 
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+</div>
+    <!-- coffee shops -->
 
 
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+</div>
+<!-- Desserts -->
 
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
 
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
 
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$$</strong></p>
+    <p><strong>restaurant name</strong></p>
+    <p>restaurant location</p>
+    <p>menu hyperlink</p>
+  </div>
+</div>
+</div>
+    <!-- Indian -->
 
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+</div>
+    <!-- Italian -->
 
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+</div>
+    <!-- Korean -->
 
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+</div>
+    <!-- Mediterranean -->
 
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+</div>
+    <!-- Mexican -->
 
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+</div>
+    <!-- Vietnamese -->
 
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
 
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>restaurant name</strong></p>
+        <p>restaurant location</p>
+        <p>menu hyperlink</p>
+      </div>
+    </div>
+<!-- END GRID -->
+</div>
 
-
-
-
-</pre>
     <footer class="footer">
 
 <div class="container-fluid bg-3 text-center">
   <p><div class="row">
     <div class="column">
       <p><img id="img" src="https://i.imgur.com/9Rb4ZIh.jpg" class="img-responsive margin" style="width:70%" alt="Image"></p>
-      <center><br><strong>Kaiya Pringle</br></strong>
-      Hi! I’m currently a senior at Providence Christian Academy. I love playing soccer and softball in my free time.</center>
+      <center><br><strong>Maryland's Very Own Abigail Kessel</br></strong>
+      Hey there! I'm a rising senior ar Bethesda Chevy-Chase High School. In my free time, I love to read and spend time with my cat, Yogi.</center>
     </div>
     <div class="column">
       <img id="img2" src="https://i.imgur.com/6YJF350.jpg" class="img-responsive margin" style="width:70%" alt="Image">
-      <center><br><strong>Rebecca Alvarez</br></strong>
-      Hey guys! I am an upcoming junior at Chattahoochee High School, and I love playing video games.</center>
+      <center><br><strong>DC's Very Own Aaliyah Link-Morris</br></strong>
+      Hello. I'm a rising Junior at KIPP DC College Preparatory. In my free time, I like to wirte stories and draw. Most Importantly, I love to watch (binge watch)
+     Netflix and old TV shows.</center>
     </div>
     <div class="column">
       <img id="img" src="https://imgflip.com/s/meme/Mocking-Spongebob.jpg" class="img-responsive margin" style="width:50%" alt="Image">
-      <center><br><strong>Armina Fani</br></strong>
-      Hello all! I’m currently a senior at Northview High School. I enjoy painting and reading books in my spare time.</center>
+      <center><br><strong>Virginia's Very Own Yasmin Shafi</br></strong>
+      Hi! I am a rising Senior at Wakefield High School. In my free time, I love to read books and listen to podcasts.</center>
     </div>
   </div>
 </div>
