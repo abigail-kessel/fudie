@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>fudie</title>
+    <link rel = "stylesheet"  href = "fudie.css">
+    <script src="file:///C:/Users/gwc/Desktop/gwc/project/fudie.js"></script>
+  </head>
+  <body>
+    <header class="header">
+<img src="https://66.media.tumblr.com/8888d261b6c99015ea9ae3d18ab26cfa/tumblr_pvied3DRI71yt8rv0o1_400.png">
+    </header>
+    <ul id="nav">
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="news.asp" onclick="filterSelection('DC')">DC</a></li>
+    <li><a href="contact.asp" onclick="filterSelection('Maryland')">Maryland</a></li>
+    <li><a href="about.asp" onclick="filterSelection('Virginia')">Virginia</a></li>
+    </ul>
+
+
+<h1 align="center"> Pick Your Cuisine</h1>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('American')"> American</button>
+  <button class="btn" onclick="filterSelection('Bakeries')"> Bakeries</button>
+  <button class="btn" onclick="filterSelection('Caribbean')"> Caribbean</button>
+  <button class="btn" onclick="filterSelection('Chinese')"> Chinese</button>
+  <button class="btn" onclick="filterSelection('Coffee')"> Coffee Shops</button>
+  <button class="btn" onclick="filterSelection('Desserts')">Desserts</button>
+  <button class="btn" onclick="filterSelection('Indian')"> Indian</button>
+  <button class="btn" onclick="filterSelection('Italian')"> Italian</button>
+  <button class="btn" onclick="filterSelection('Korean')"> Korean</button>
+  <button class="btn" onclick="filterSelection('Mediterranean')"> Mediterranean</button>
+  <button class="btn" onclick="filterSelection('Mexican')"> Mexican</button>
+  <button class="btn" onclick="filterSelection('Vietnamese')"> Vietnamese</button>
+</div>
+
+<h1 align="center">Pick Your Price</h1>
+<center>
+<button class="btn active" onclick="filterSelection('all$')"> Show all</button>
+<button class="btn" onclick="filterSelection('$')"> $</button>
+<button class="btn" onclick="filterSelection('$$')"> $$</button>
+<button class="btn" onclick="filterSelection('$$$')"> $$$</button>
+</center>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">  <!-- dont touch this -->
+
+
+<!-- Bakeries -->
+
+  <div class="column American">
+    <div class="content">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2wHlBkQSGpWNoBQfsGg57gj8Lup726YpX3Vjo0YrDrZsvmpAw" alt="Ben's Chili Bowl" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$</strong></p>
+      <p><strong>Ben's Chili Bowl</strong></p>
+      <p>1001 H St. NE, Washington DC 20002</p>
+      <p>Menu <a href=https://www.benschilibowl.com/"target"_blank>wwww.benschilibowl.com </a> </p>
+
+
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Po Boy Jim</strong></p>
+      <p>1934 9th St. NW, Washington DC 20001</p>
+      <p>Menu <a href=http://poboyjim.com/"target"_blank>poboyjim.com</a> </p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>Blue Duck Tavern</strong></p>
+      <p>1201 24th St. NW, Washington DC 20037</p>
+      <p>Menu <a href=https://www.blueducktavern.com/"target"_blank>www.blueducktavern.com</a> </p>
+    </div>
+  </div>
+
+
+</div>
+<!--Bakeries-->
+
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$</strong></p>
+      <p><strong>Firehook Bakery</strong></p>
+      <p>912 17th St NW, Washington, DC 20006</p>
+      <p>Menu <a href=https://www..com/"target"_blank>wwww..com </a> </p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Sprinkles Georgetown</strong></p>
+      <p>3015 M St NW, Washington DC 20007</p>
+      <p>Menu <a href=https://www..com/"target"_blank>wwww..com </a> </p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>The CakeRoom</strong></p>
+      <p>2006 18th St NW, Washington DC 20009</p>
+      <p>Menu <a href=https://www.cakeroombakery.com/"target"_blank>wwww.cakeroombakery.com </a> </p>
+    </div>
+  </div>
+
+</div>
+<!-- Caribbean -->
+
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$</strong></p>
+      <p><strong>Andrene's</strong></p>
+      <p> 308 Kennedy St NW, Washington, DC 20011</p>
+      <p>Menu <a href=https://http://places.singleplatform.com/andrenes-caribbean--soul-food-carry-out/menu?ref=google/"target"_blank>/places.singleplatform.com/andrenes-caribbean--soul-food-carry-out/menu?ref=google</a> </p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Peaches Kitchen Restaurant & Catering Service</strong></p>
+      <p>6214 3rd St NW, Washington, DC 20011</p>
+      <p>Menu <a href=https://http://www.peacheskitchen.com//"target"_blank>wwww.peacheskitchen.com </a> </p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>Sandovan Restaurant & Lounge</strong></p>
+      <p>4809 Georgia Ave NW, Washington, DC 20011</p>
+      <p>Menu <a href=https://www.sandovanrestaurantlounge.com/"target"_blank>wwww.sandovanrestaurantlounge.com </a> </p>
+    </div>
+  </div>
+
+</div>
+  <!-- Chinese -->
+
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Great Wall Szechuan House</strong></p>
+        <p>1527 14th St. NW, Washington DC 20005</p>
+        <p>Menu <a href=https://www.greatwallszechuan.com/"target"_blank>wwww.greatwallszechuan.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Chiko</strong></p>
+        <p>423 8th St. SE, Washington DC 20004</p>
+        <p>Menu <a href=https://chikodc.com/"target"_blank>chikodc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Copycat Co.</strong></p>
+        <p>1110 H St. NE, Washington DC 20002</p>
+        <p>Menu <a href=https://www.copycatcompany.com/"target"_blank>wwww.copycatcompany.com </a> </p>
+      </div>
+    </div>
+</div>
+    <!-- coffee shops -->
+
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Compass Coffee</strong></p>
+        <p>1535 7th St NW, Washington, DC 20001</p>
+        <p>Menu <a href=https://www.compasscoffee.com/"target"_blank>wwww.compasscoffee.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Tryst</strong></p>
+        <p>2459 18th St NW, Washington, DC 20009</p>
+        <p>Menu <a href=https://www.trystdc.com/"target"_blank>wwww.trystdc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>The Bar at P Street</strong></p>
+        <p>1440 P St NW, Washington, DC 20005</p>
+        <p>Menu <a href=https://www.wholefoodsmarket.com/"target"_blank>wwww.wholefoodsmarket.com </a> </p>
+      </div>
+    </div>
+</div>
+<!-- Desserts -->
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$</strong></p>
+    <p><strong>Crepeway</strong></p>
+    <p>2001 L St NW, Washington, DC 20036</p>
+    <p>Menu <a href=https://crepeaway.wixsite.com/"target"_blank>crepeaway.wixsite.com </a> </p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$</strong></p>
+    <p><strong>Thomas Sweet</strong></p>
+    <p>3214 P St NW, Washington, DC 20007</p>
+    <p>Menu <a href=https://thomassweet.com/"target"_blank>thomassweet.com </a> </p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$$</strong></p>
+    <p><strong>DBGB Kitchen & Bar</strong></p>
+    <p>931 H St NW, Washington, DC 20001</p>
+    <p>Menu <a href=https://www.dbgb.com/"target"_blank>wwww.dbgb.com </a> </p>
+  </div>
+</div>
+</div>
+    <!-- Indian -->
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Indigo</strong></p>
+        <p>243 K St. NE, Washington DC 20002</p>
+        <p>Menu <a href=https://menupages.com/indigo/243-k-st-ne-washington/"target"_blank>menupages.com/indigo/243-k-st-ne-washington</a> </p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Bindaas</strong></p>
+        <p>2000 Pennsylvania Ave. NW, Washington DC 20006</p>
+        <p>Menu <a href=https://www.bindaasdc.com/#modern-indian/"target"_blank>www.bindaasdc.com/#modern-indian</a> </p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Karma Modern Indian</strong></p>
+        <p>611 I St. N.W., Washington, DC 20001</p>
+        <p>Menu <a href=https://www.karmamodernindian.com/"target"_blank>wwww.karmamodernindian.com </a> </p>
+      </div>
+    </div>
+
+</div>
+    <!-- Italian -->
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Red White and Basil</strong></p>
+        <p>1781 Florida Ave NW, Washington DC 20009</p>
+        <p>Menu <a href=https://www.redwhitebasil.com/"target"_blank>wwww.redwhitebasil.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Carmine's Italian Restaurant</strong></p>
+        <p>425 7th St NW at, E St NW, Washington DC 20004</p>
+        <p>Menu <a href=https://www.carminenyc.com/"target"_blank>wwww.carminenyc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>RPM Italian</strong></p>
+        <p>650 K st. NW, Washington DC 20001</p>
+        <p>Menu <a href=https:rpmrestaurants.com/rpmitalian/dc/"target"_blank>rpmrestaurants.com/rpmitalian/dc/</a> </p>
+      </div>
+    </div>
+</div>
+    <!-- Korean -->
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>BAB Korean Fusion</strong></p>
+        <p>1387 H St. NE A, Washington DC 20002</p>
+        <p>Menu <a href=https://www.babdc.com/"target"_blank>wwww.babdc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Mandu</strong></p>
+        <p>453 K St. NW, Washington DC 20001</p>
+        <p>Menu <a href=https://www.mandudc.com/"target">wwww.mandudc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Kyirisan</strong></p>
+        <p>1924 8th St NW, Washington, DC 20001</p>
+        <p>Menu <a href=https://www..com/"target"_blank>wwww..com </a> </p>
+      </div>
+    </div>
+</div>
+    <!-- Mediterranean -->
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Astor Mediterranean DC</strong></p>
+        <p>1829 Columbia Rd NW, Washington, DC 20009</p>
+        <p>Menu <a href=https://www.astoreatsdc.com/"target"_blank>wwww.astoreatsdc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Agora</strong></p>
+        <p>1527 17th St NW, Washington, DC 20036</p>
+        <p>Menu <a href=https://agoradc.net/"target"_blank>agoradc.net </a> </p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Zaytinya</strong></p>
+        <p>701 9th St NW, Washington, DC 20001</p>
+        <p>Menu <a href=https://www.zaytinya.com/"target"_blank>wwww.zaytinya.com </a> </p>
+      </div>
+    </div>
+
+</div>
+    <!-- Mexican -->
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Tacos El Chilango</strong></p>
+        <p>1119 V St NW, Washington, DC 20009</p>
+        <p>Menu <a href=https://places.singleplatform.com/tacos-el-chilango-0/menu?ref=google/"target"_blank>wwww..com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Espita Mezacaleria</strong></p>
+        <p>1250 9th St NW, Washington, DC 20001</p>
+        <p>Menu <a href=https://espitadc.com/"target"_blank>espitadc.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Jaleo</strong></p>
+        <p>480 7th St. NW, Washington DC 20004</p>
+        <p>Menu <a href=https://www.jaleo.com/location/washington-dc//"target"_blank>wwww.jaleo.com/location/washington-dc/</a> </p>
+      </div>
+    </div>
+</div>
+    <!-- Vietnamese -->
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Pho Viet Restaurant</strong></p>
+        <p>3513 14th St. NW, Washington DC</p>
+        <p>Menu <a href=https://menupages.com/pho-viet/3713-new-hampshire-ave-nw-washington/"target"_blank>wwww.menupages.com/pho-viet/3713-new-hampshire-ave-nw-washington.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Miss Saigon Restaurant</strong></p>
+        <p>3057 M St. NW, Washington DC 20007</p>
+        <p>Menu <a href=https://www.ms-saigonus.com/"target"_blank>wwww.ms-saigonus.com </a> </p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Pho 14</strong></p>
+        <p>1769 Columbia Rd NW, Washington DC 20009</p>
+        <p>Menu <a href=https://www.dcpho14.com/"target"_blank>wwww.dcpho14.com </a> </p>
+      </div>
+    </div>
+<!-- END GRID -->
+</div>
+
+    <footer class="footer">
+
+<div class="container-fluid bg-3 text-center">
+  <p><div class="row">
+    <div class="column">
+      <p><img id="img" src="https://i.imgur.com/9Rb4ZIh.jpg" class="img-responsive margin" style="width:70%" alt="Image"></p>
+      <center><br><strong>Maryland's Very Own Abigail Kessel</br></strong>
+      Hey there! I'm a rising senior ar Bethesda Chevy-Chase High School. In my free time, I love to read and spend time with my cat, Yogi.</center>
+    </div>
+    <div class="column">
+      <img id="img2" src="https://i.imgur.com/6YJF350.jpg" class="img-responsive margin" style="width:70%" alt="Image">
+      <center><br><strong>DC's Very Own Aaliyah Link-Morris</br></strong>
+      Hello. I'm a rising Junior at KIPP DC College Preparatory. In my free time, I like to wirte stories and draw. Most Importantly, I love to watch (binge watch)
+     Netflix and old TV shows.</center>
+    </div>
+    <div class="column">
+      <img id="img" src="https://imgflip.com/s/meme/Mocking-Spongebob.jpg" class="img-responsive margin" style="width:50%" alt="Image">
+      <center><br><strong>Virginia's Very Own Yasmin Shafi</br></strong>
+      Hi! I am a rising Senior at Wakefield High School. In my free time, I love to read books and listen to podcasts.</center>
+    </div>
+  </div>
+</div>
+
+    </footer>
+  </body>
+  </HTML>
