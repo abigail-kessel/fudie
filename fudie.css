@@ -19,6 +19,13 @@ body{
   height: 1602px;
   background-attachment: fixed;
 }
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 h1 {
   color: white;
   text-shadow:
@@ -33,6 +40,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 text-align:center;
+color: white;
 }
 
 li {
@@ -69,7 +77,7 @@ a:hover {
   border-width:1px 0;
 }
 .footer {
-  position: inherit;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -206,4 +214,8 @@ h1 {
 .btn.active {
   background-color: #666;
    color: white;
+}
+.restaurantimg {
+  height: 250px;
+  width: 200px;
 }
