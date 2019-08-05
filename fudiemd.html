@@ -1,9 +1,52 @@
 <!DOCTYPE html>
   <html>
   <head>
+    <title>fudie</title>
+    <link rel = "stylesheet"  href = "fudie.css">
+    <script src="file:///C:/Users/gwc/Desktop/gwc/project/fudie.js"></script>
     <title>fudie.md</title>
-    <body>
+   <!-- <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
 
+    <header class="header">
+<img src="https://66.media.tumblr.com/8888d261b6c99015ea9ae3d18ab26cfa/tumblr_pvied3DRI71yt8rv0o1_400.png">
+    </header>
+    <ul id="nav">
+    <li><a href="file:///C:/Users/gwc/Desktop/gwc/project/fudie.html">Home</a></li>
+    <li><a href="file:///C:/Users/gwc/Desktop/gwc/project/fudieDC.html" onclick="filterSelection('DC')">DC</a></li>
+    <li><a href="file:///C:/Users/gwc/Desktop/gwc/project/fudieMD.html" onclick="filterSelection('Maryland')">Maryland</a></li>
+    <li><a href="file:///C:/Users/gwc/Desktop/gwc/project/fudieVA.html" onclick="filterSelection('Virginia')">Virginia</a></li>
+    </ul>
+
+<h1 align="center"> Pick Your Cuisine</h1>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('American')"> American</button>
+  <button class="btn" onclick="filterSelection('Bakeries')"> Bakeries</button>
+  <button class="btn" onclick="filterSelection('Caribbean')"> Caribbean</button>
+  <button class="btn" onclick="filterSelection('Chinese')"> Chinese</button>
+  <button class="btn" onclick="filterSelection('Coffee')"> Coffee Shops</button>
+  <button class="btn" onclick="filterSelection('Desserts')">Desserts</button>
+  <button class="btn" onclick="filterSelection('Indian')"> Indian</button>
+  <button class="btn" onclick="filterSelection('Italian')"> Italian</button>
+  <button class="btn" onclick="filterSelection('Korean')"> Korean</button>
+  <button class="btn" onclick="filterSelection('Mediterranean')"> Mediterranean</button>
+  <button class="btn" onclick="filterSelection('Mexican')"> Mexican</button>
+  <button class="btn" onclick="filterSelection('Vietnamese')"> Vietnamese</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">  <!-- dont touch this -->
+
+
+<!-- Bakeries -->
 
 <div class="column American">
     <div class="content">
@@ -37,7 +80,7 @@
       <p>Menu: <a href="https://bricksidebethesda.com" target="_blank">bricksidebethesda.com</a></p>
     </div>
   </div>
-
+</div>
 
 <!--Bakeries-->
 
@@ -133,7 +176,7 @@
         <h4>Chinese</h4>
         <p><strong>$$</strong></p>
         <p><strong>Peter Chang</strong></p>
-        <p> Rockville Town Square (20-A Maryland Ave, Rockville, MD 20850)</p>
+        <p>20-A Maryland Ave, Rockville, MD 20850</p>
         <p>Menu: <a href="https://www.peterchangarlington.com/menu/" target="_blank">peterchang.com</a></p>
       </div>
     </div>
@@ -433,8 +476,8 @@
       </div>
     </div>
 
-
+</div>
 
 
   </body>
- </HTML>
+  </HTML>
