@@ -12,12 +12,14 @@ font-family: 'georgia' serif;
 font-size: 40px;
 }
 body{
-  background-image: url("https://img.theculturetrip.com/768x432/wp-content/uploads/2016/09/city-restaurant-lunch-outside.jpg");
+  background-image: url("file:///C:/Users/gwc/Desktop/gwc/project/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 1602px;
   background-attachment: fixed;
+  background-blend-mode: darken;
+  /* background: rgba(0, 0, 0, 0); */
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
@@ -45,6 +47,7 @@ h1 {
 }
 .about {
   color: white;
+  font-size: 20px;
   /* font-size: 25px; */
   text-shadow:
    -1px -1px 0 #000,
@@ -69,9 +72,14 @@ display:inline;
 li a {
 diplay: block;
 display: inline-block;
-color: black;
+color: white;
 padding: 14px 16px;
 text-decoration: none;
+text-shadow:
+ -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+   2px 2px 0 #000;
 
 }
 
@@ -126,10 +134,11 @@ a:hover {
 }
 #img {
   border-radius: 50%;
+  position: absolute;
 }
 #img2 {
   border-radius: 50%;
-  padding-top: 18px;
+
 }
 .container {
   overflow: hidden;
