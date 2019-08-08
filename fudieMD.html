@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>fudie</title>
+    <link rel = "stylesheet"  href = "fudie.css">
+    <script src="fudie.js"></script>
+    <title>fudie.md</title>
+   <!-- <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
+
+    <header class="header">
+<img src="https://66.media.tumblr.com/8888d261b6c99015ea9ae3d18ab26cfa/tumblr_pvied3DRI71yt8rv0o1_400.png">
+    </header>
+    <ul id="nav">
+    <li><a href="fudie.html">Home</a></li>
+    <li><a href="fudieDC.html" onclick="filterSelection('DC')">DC</a></li>
+    <li><a href="fudieMD.html" onclick="filterSelection('Maryland')">Maryland</a></li>
+    <li><a href="fudieVA.html" onclick="filterSelection('Virginia')">Virginia</a></li>
+    </ul>
+
+<h1 align="center"> Pick Your Cuisine</h1>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('American')"> American</button>
+  <button class="btn" onclick="filterSelection('Bakeries')"> Bakeries</button>
+  <button class="btn" onclick="filterSelection('Caribbean')"> Caribbean</button>
+  <button class="btn" onclick="filterSelection('Chinese')"> Chinese</button>
+  <button class="btn" onclick="filterSelection('Coffee')"> Coffee Shops</button>
+  <button class="btn" onclick="filterSelection('Desserts')">Desserts</button>
+  <button class="btn" onclick="filterSelection('Indian')"> Indian</button>
+  <button class="btn" onclick="filterSelection('Italian')"> Italian</button>
+  <button class="btn" onclick="filterSelection('Korean')"> Korean</button>
+  <button class="btn" onclick="filterSelection('Mediterranean')"> Mediterranean</button>
+  <button class="btn" onclick="filterSelection('Mexican')"> Mexican</button>
+  <button class="btn" onclick="filterSelection('Vietnamese')"> Vietnamese</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">  <!-- dont touch this -->
+
+
+<!-- Bakeries -->
+
+<div class="column American">
+    <div class="content">
+      <img class ="restaurantimg" src="https://s3-media3.fl.yelpcdn.com/buphoto/SYg5NXFz8bS5D6RuvVm0dA/o.jpg" alt="Guy Fieri with Sip and Bite" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$</strong></p>
+      <p><strong>Sip & Bite</strong></p>
+      <p>2200 Boston St, Baltimore, MD 21231</p>
+      <p>Menu: <a href="https://www.doordash.com/store/sip-bite-restaurant-baltimore-159387/?utm_campaign=gpa" target="_blank">doordash.com</a></p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content">
+      <img class ="restaurantimg" src="https://eatatsilver.com/sites/default/files/styles/restaurants_teaser/public/silver-cc.jpg" alt="Silver at Night" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$</strong></p>
+      <p><strong> Silver New American Brasserie</strong></p>
+      <p>7150 Woodmont Ave, Bethesda, MD 20815</p>
+      <p>Menu: <a href="https://www.eatatsilver.com"target="_blank">eatatsilver.com</a></p>
+    </div>
+  </div>
+
+  <div class="column American">
+    <div class="content mt-3" id="myDIV">
+      <img class ="restaurantimg" src="https://assets3.thrillist.com/v1/image/690065/size/tmg-article_default_mobile.jpg" alt="Inside Brickside" style="width:100%">
+      <h4>American</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Brickside Food & Drink</strong></p>
+      <p>4866 Cordell Ave, Bethesda, MD 20814</p>
+      <p>Menu: <a href="https://bricksidebethesda.com" target="_blank">bricksidebethesda.com</a></p>
+    </div>
+  </div>
+</div>
+
+<!--Bakeries-->
+
+
+  <div class="column Bakeries">
+    <div class="content mt-3" id="myDIV">
+      <img class ="restaurantimg" src="http://www.freshbaguette.net/wp-content/uploads/2016/08/home-carousel-breads-02-770x675.jpg" alt="Baguettes" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$</strong></p>
+      <p><strong>rFresh Baguette</strong></p>
+      <p>4919 Bethesda Ave, Bethesda, MD 20814</p>
+      <p>Menu: <a href="http://www.freshbaguette.net/"target="_blank">freshbaguette.net/</a></p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content mt-3" id="myDIV">
+      <img class ="restaurantimg" src="https://s3-media1.fl.yelpcdn.com/bphoto/sq728HDt9-NwTOn9iZ3nIw/348s.jpg" alt="Sweet Tooth Bakery Logo" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Sweet Tooth Bakery</strong></p>
+      <p>56 Ritchie Rd, Capitol Heights, MD 20743</p>
+      <p>Menu: <a href="https://sweettoothcakesandpastries.net/"target="_blank">sweettoothcakesandpastries.net//</a></p>
+    </div>
+  </div>
+
+  <div class="column Bakeries">
+    <div class="content mt-3" id="myDIV">
+      <img class ="restaurantimg" src="http://www.trbimg.com/img-58a22fbd/turbine/bal-charm-city-cakes-opening-another-shop-in-harbor-east-20170213" alt="Some of the beautiful Charm City cakes" style="width:100%">
+      <h4>Bakeries</h4>
+      <p><strong>$$$</strong></p>
+      <p><strong>Charm City Cakes</strong></p>
+      <p>2936 Remington Ave, Baltimore, MD 21211</p>
+      <p>Menu: <a href="http://www.charmcitycakes.com/flavorsbmore/"target="_blank">www.charmcitycakes.com</a></p>
+    </div>
+  </div>
+
+
+<!-- Caribbean -->
+
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img class ="restaurantimg" src="https://s3-media4.fl.yelpcdn.com/bphoto/nmabq8ZVnKZdp2O6Rk7UpA/l.jpg" alt="A takeout meal from Caribbean Goodness" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$</strong></p>
+      <p><strong>Caribbean Goodness</strong></p>
+      <p>3666 St Barnabas Rd, Hillcrest Heights, MD</p>
+      <p>Menu: <a href="https://caribbeangoodness.com/"target="_blank">https://caribbeangoodness.com/</a></p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img class ="restaurantimg" src="http://www.rayscaf.com/images/BANNERrevisedR1.jpg" alt="Ray's Logo" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>Ray's Caribbean American Food</strong></p>
+      <p>1436 S Philadelphia Blvd, Aberdeen, MD 21001</p>
+      <p>Menu: <a href="http://www.rayscaf.com/Caribbeanfood.html"target="_blank">rayscaf.com</a></p>
+    </div>
+  </div>
+
+  <div class="column Caribbean">
+    <div class="content">
+      <img class ="restaurantimg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/82/af/d4/the-front-of-the-jerk.jpg" alt="The fromt of the Jerk Pit" style="width:100%">
+      <h4>Caribbean</h4>
+      <p><strong>$$</strong></p>
+      <p><strong>The Jerk Pit</strong></p>
+      <p>9078 Baltimore Ave, College Park, MD 20740</p>
+      <p>Menu: <a href="http://myjerkpit.com/menu/" target="_blank">myjerkpit.com</a></p>
+    </div>
+  </div>
+
+
+  <!-- Chinese -->
+
+
+    <div class="column Chinese">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://pbs.twimg.com/profile_images/1080589417688064000/Bhs4MA2f_400x400.jpg" alt="China Wok Logo" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>China Wok</strong></p>
+        <p>2010 Maryland Ave, Baltimore, MD 21218</p>
+        <p>Menu: <a href="https://www.chinawokbaltimoremd.com/menu.aspx" target="_blank">chinawokbaltimoremd.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="http://rockvilletownsquare.com/uploads/tenants/peter_chang_pic.jpg" alt="A dish from Peter Chang" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Peter Chang</strong></p>
+        <p>20-A Maryland Ave, Rockville, MD 20850</p>
+        <p>Menu: <a href="https://www.peterchangarlington.com/menu/" target="_blank">peterchang.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Chinese">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://www.gracesrestaurants.com/wp-content/uploads/2018/06/LD2A7878.jpg" alt="Restaurant interior" style="width:100%">
+        <h4>Chinese</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Grace's Mandarin</strong></p>
+        <p>188 Waterfront St, Oxon Hill, MD 20745</p>
+        <p>Menu: <a href="https://www.gracesrestaurants.com/menu/" target="_blank">gracesrestaurants.com</a></p>
+      </div>
+    </div>
+
+    <!-- coffee shops -->
+
+
+    <div class="column Coffee">
+      <div class="content">
+        <img class ="restaurantimg" src="https://s3-media4.fl.yelpcdn.com/bphoto/J91wdrO4EygfB1A7VA-PEA/ls.jpg" alt="A visitor's photo of coffee from Bump N Grind" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Bump 'n Grind</strong></p>
+        <p>1200 East West Highway, Silver Spring, MD </p>
+        <p>Menu: <a href="https://bumpngrind.co/" target="_blank">bumpngrind.co</a></p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img class ="restaurantimg" src="http://hyattsvillelife.com/wp-content/uploads/2014/11/Vigilante-Coffee-Nancy.jpg" alt="Interior of Vigilante Coffee" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Vigilante Coffee</strong></p>
+        <p>4327 Gallatin St, Hyattsville, MD 20781</p>
+        <p>Menu: <a href=">https://www.vigilantecoffee.com/" target="_blank">vigilantecoffee.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Coffee">
+      <div class="content">
+        <img class ="restaurantimg" src="https://media-cdn.tripadvisor.com/media/photo-s/07/f4/b6/5e/frederick-coffee-company.jpg" alt="Menu of Frederick Coffee Co & Cafe" style="width:100%">
+        <h4>Coffee Shops</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Frederick Coffee Co & Cafe</strong></p>
+        <p>100 N East St, Frederick, MD 21701</p>
+        <p>Menu: <a href="http://fredcoffeeco.com/index.php/menu/" target="_blank">fredcoffeeco.com</a></p>
+      </div>
+    </div>
+
+<!-- Desserts -->
+
+<div class="column Desserts">
+  <div class="content mt-3" id="myDIV">
+    <img class ="restaurantimg" src="https://s3-media3.fl.yelpcdn.com/bphoto/S-S13OCececxU_8S_h5UHw/348s.jpg" alt="Two ice cream cones outside of Annapolis Ice Cream Co" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$</strong></p>
+    <p><strong>Annapolis Ice Cream Company</strong></p>
+    <p>196 Main St, Annapolis, MD 21401</p>
+    <p>Menu: <a href=" http://places.singleplatform.com/annapolis-ice-cream/menu?ref=google" target="_blank">Annapolis Ice Cream</a></p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content mt-3" id="myDIV">
+    <img class ="restaurantimg" src="http://3.bp.blogspot.com/-tFwFlIwVKoo/U5Z3CoZoGbI/AAAAAAAAN7I/d5omA0A3jx8/s1600/IMG_2220.JPG" alt="Outside of The Charmery" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$</strong></p>
+    <p><strong>The Charmery</strong></p>
+    <p>Address: 801 W 36th St, Baltimore, MD 21211 </p>
+    <p>Menu: <a href="https://www.thecharmery.com/flavorbiography" target="_blank">www.thecharmery.com</a></p>
+  </div>
+</div>
+
+<div class="column Desserts">
+  <div class="content mt-3" id="myDIV">
+    <img class ="restaurantimg" src="http://justinesoc.com/wp-content/uploads/2014/06/IMG_3907-1024x682.jpg" alt="Inside Justine's" style="width:100%">
+    <h4>Desserts</h4>
+    <p><strong>$$</strong></p>
+    <p><strong>Justine's Ice Cream Parlour OC</strong></p>
+    <p>12207a Coastal Hwy, Ocean City, MD 21842</p>
+    <p>Menu: <a href="http://justinesoc.com/ice-cream-flavors/" target="_blank">justinesoc.com</a></p>
+  </div>
+</div>
+
+
+    <!-- Indian -->
+
+    <div class="column Indian">
+      <div class="content">
+        <img class ="restaurantimg" src="https://www.sapphireindianrestaurant.com/wp-content/uploads/2018/06/sapphire-main2.jpeg" alt="Beautiful dishes from Sapphire Indian" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Sapphire Indian & Thai Restaurant</strong></p>
+        <p> 13308 Laurel Bowie Rd, Laurel, MD 20708</p>
+        <p>Menu: <a href="https://www.sapphireindianrestaurant.com" target="_blank">sapphireindianrestaurant.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img class ="restaurantimg" src="https://www.tiffin.com/images/structured-data/franchise/photos/group-shot1.jpg" alt="Meas from Tiffin" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Tiffin</strong></p>
+        <p>1341 University Blvd E, Takoma Park, MD 20912</p>
+        <p>Menu: <a href="https://www.tiffinrestaurant.com" target="_blank">tiffinrestaurant.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Indian">
+      <div class="content">
+        <img class ="restaurantimg" src="https://d23jhgw4cciqh2.cloudfront.net/resized/venue/ananda/1be2.1920x1080.jpg" alt="Inside Ananda with poeple dining" style="width:100%">
+        <h4>Indian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Ananda</strong></p>
+        <p>7421 Maple Lawn Blvd, Fulton, MD 2075</p>
+        <p>Menu: <a href= "https://www.anandarestaurant.net" target="_blank">anandarestaurant.net</a></p>
+      </div>
+    </div>
+
+
+    <!-- Italian -->
+
+    <div class="column Italian">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://media-cdn.tripadvisor.com/media/photo-s/05/f9/b1/e6/three-brothers-italian.jpg" alt="The Three Brothers all holding up Pizzas" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$</strong></p>
+        <p><strong> Three Brothers</strong></p>
+        <p>4227 7434, Riggs Rd, Hyattsville, MD 20783</p>
+        <p>Menu: <a href="https://www.threebrothershyattsville.com" target="_blank">threebrothershyattsville.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://media-cdn.tripadvisor.com/media/photo-s/12/5d/d6/5b/photo0jpg.jpg" alt="La Panterria outdoor seating with haning plants and string lights" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>La Panetteria</strong></p>
+        <p> 4921 Cordell Ave, Bethesda, MD 20814</p>
+        <p>Menu: <a href="https://www.lapanetteria.com" target="_blank">lapanetteria.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Italian">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media2.fl.yelpcdn.com/bphoto/MfGax6Ydai-9OkWAVEUB5g/ls.jpg" alt="Scallops and shrimp from Carpaccio Tuscan Kitchen" style="width:100%">
+        <h4>Italian</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong> Carpaccio Tuscan Kitchen</strong></p>
+        <p>1 Park Pl, Annapolis, MD 21401</p>
+        <p>Menu: <a href="https://www.opentable.com/carpaccio-tuscan-kitchen?ref=1068" target="_blank">opentable.com</a></p>
+      </div>
+    </div>
+
+    <!-- Korean -->
+
+    <div class="column Korean">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media2.fl.yelpcdn.com/bphoto/Ot5ij1m139p0NGX5BtDNrA/348s.jpg" alt="Korean Tacos" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Seoul Food D.C.</strong></p>
+        <p>7302 Carroll Ave, Takoma Park, MD 20912</p>
+        <p>Menu: <a href="http://places.singleplatform.com/seoul-food-4/menu?ref=google"target="_blank">menu</a></p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="http://shopcollegepark.org/wp-content/dg_images/1404828_780342118700067_1823950844371059866_o-642_428.jpg" alt="Rows of sushi" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Kangnam BBQ</strong></p>
+        <p>8503 Baltimore Ave, College Park, MD 20740</p>
+        <p>Menu: <a href="https://www.Kangnambbqmd.com" target="_blank">Kangnambbqmd.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Korean">
+      <div class="content">
+        <img class ="restaurantimg" src="https://media-cdn.tripadvisor.com/media/photo-s/06/38/5f/a3/momo-chicken-and-jazz.jpg" alt="Outside of MOMO" style="width:100%">
+        <h4>Korean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>MOMO</strong></p>
+        <p>4862 Cordell Ave, Bethesda, MD 20814</p>
+        <p>Menu: <a href="http://places.singleplatform.com/momo-chicken-and-jazz/menu?ref=google" target="_blank">singleplatform.com</a></p>
+      </div>
+    </div>
+
+    <!-- Mediterranean -->
+
+    <div class="column Mediterranean">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media3.fl.yelpcdn.com/bphoto/HbP7JS3kbSaQhoLsWdavVg/348s.jpg" alt="A takeout meal of rice, tomato, meat and onions" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$</strong></p>
+        <p><strong> Mediterranean House of Kabob</strong></p>
+        <p>2703, 11616 Rockville Pike, Rockville, MD 20852</p>
+        <p>Menu: <a href="https://mymozo.com/myrestaurant/default?CompanyId=1270" target="_blank"></a></p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://rdc.rdcimage.com/partner-images/2122/micrositeimage_micrositeimage_photo2.jpg" alt="Mykonos Grill Interior" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong> Mykonos Grill</strong></p>
+        <p>121 Congressional Ln, Rockville, MD 20852</p>
+        <p>Menu: <a href="https://mykonosgrill.com/" target="_blank">mykonosgrill.com/</a></p>
+      </div>
+    </div>
+
+    <div class="column Mediterranean">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://cdn.vox-cdn.com/thumbor/lBkNtexPt9_RuguDJa0NU8ZXCyc=/0x0:960x720/1200x800/filters:focal(404x284:556x436)/cdn.vox-cdn.com/uploads/chorus_image/image/54971991/alia_s_Cuzina_MD_exterior.0.jpg" alt="Inside Talia's with a display of food" style="width:100%">
+        <h4>Mediterranean</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Talia's Cuzina</strong></p>
+        <p> 10560 Metropolitan Ave, Kensington, MD 20895</p>
+        <p>Menu: <a href="https://www.taliascuzina.com/" target="_blank">www.taliascuzina.com</a></p>
+      </div>
+    </div>
+
+
+    <!-- Mexican -->
+
+    <div class="column Mexican">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media2.fl.yelpcdn.com/bphoto/rYLaL9gAfSWWl2UxYjpI7Q/348s.jpg" alt="Tacos with    sauces" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$</strong></p>
+        <p><strong> Taqueria La Placita</strong></p>
+        <p>5020 Edmonston Rd, Hyattsville, MD 20781</p>
+        <p>Menu: <a href="http://runinos.com/places/taqueria-la-placita-hyattsville-md/"target="_blank">fooodododdodo</a></p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content mt-3" id="myDIV">
+        <img  class ="restaurantimg"src="https://s3-media3.fl.yelpcdn.com/bphoto/_CH3FnxI_QpivQmqgOY0kQ/ls.jpg" alt="A display of food including tacos, quesadillas, and fries" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Gringos and Mariachis</strong></p>
+        <p> 12435 Park Potomac Ave, Potomac, MD 20854</p>
+        <p>Menu: <a href="https://www.gringosandmariachis.com/menu"target="_blank">www.gringosandmariachis.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Mexican">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media2.fl.yelpcdn.com/bphoto/W67prC64nZtX5LrKctKxRQ/ls.jpg" alt="Food, drinks and a view of the cute buildings across the street" style="width:100%">
+        <h4>Mexican</h4>
+        <p><strong>$$$</strong></p>
+        <p><strong>Points South Latin Kitchen</strong></p>
+        <p>1640 Thames St, Baltimore, MD 21231</p>
+        <p>Menu: <a href="https://www.pointssouthbaltimore.com/BrunchMenu"target="_blank">www.pointssouthbaltimore.com</a></p>
+      </div>
+    </div>
+
+    <!-- Vietnamese -->
+
+    <div class="column Vietnamese">
+      <div class="content">
+        <img class ="restaurantimg" src="https://s3-media4.fl.yelpcdn.com/bphoto/e2xxQNvPR6prqy8oQ49dmw/348s.jpg" alt="A meal with sauce" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Lucky Corner Vietnamese</strong></p>
+        <p>5100 Buckeystown Pike Ste. 174 Frederick, MD</p>
+        <p>Menu: <a href="http://www.luckycornerrestaurant.com/menu/"target="_blank">luckycornerrestaurant.com</a></p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content mt-3" id="myDIV">
+        <img class ="restaurantimg" src="https://s3-media3.fl.yelpcdn.com/bphoto/hcTJw_NF01QskxXTNA97uQ/168s.jpg" alt="Noodles with chopsticks" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$$</strong></p>
+        <p><strong>Viet's Aroma Vietnamese Cuisine</strong></p>
+        <p>440 Prospect Blvd, Frederick, MD 21701</p>
+        <p>Menu: <a href="http://places.singleplatform.com/viets-aroma/menu?ref=google"target="_blank">Viet's Aroma Menu</a></p>
+      </div>
+    </div>
+
+    <div class="column Vietnamese">
+      <div class="content mt-3" id="myDIV">
+        <img  class ="restaurantimg"src="https://media-cdn.tripadvisor.com/media/photo-s/0d/77/a8/ab/shrimp-vermicelli.jpg" alt="     Shrimp vermicelli" style="width:100%">
+        <h4>Vietnamese</h4>
+        <p><strong>$</strong></p>
+        <p><strong>Pho Tan Vinh</strong></p>
+        <p>8705 Colesville Rd, Silver Spring, MD 20910</p>
+        <p>Menu: <a href="http://www.photanvinh.com/menu" target="_blank">photanvinh.com</a></p>
+      </div>
+    </div>
+
+</div>
+
+
+  </body>
+  </HTML>

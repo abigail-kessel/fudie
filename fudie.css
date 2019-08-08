@@ -12,7 +12,7 @@ font-family: 'georgia' serif;
 font-size: 40px;
 }
 body{
-  background-image: url("file:///C:/Users/gwc/Desktop/gwc/project/bg.jpg");
+  background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
